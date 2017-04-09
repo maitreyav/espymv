@@ -7,9 +7,9 @@ background: #;
 
 header{ /* Subtle  */
 color: #232123;
- background: linear-gradient(180deg, #E0EAFC 0%, #CFDEF3 100%);
+ background: linear-gradient(180deg, #DBE6F6 0%, #C5796D 100%);
 
-  animation: huerotator 3s  alternate;
+  animation: sheru 4s  infinite;
   }
 
   @keyframes huerotator {

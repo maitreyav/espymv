@@ -8,7 +8,7 @@ background: #212321;
 header{ /* Subtle  */
 color: #232123;
  background: linear-gradient(180deg, #DBE6F6 0%, #C5796D 100%);
-
+  animation: huerotator 3s   infinite ease;
   }
 
   @keyframes huerotator {

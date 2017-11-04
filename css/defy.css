@@ -4,8 +4,10 @@ background: #232123;
 color: #fff;
 }
 header{ /* Subtle  */
+
+
  background: linear-gradient(90deg, #DBE6F6 0%, #C5796D 100%);
-  animation: huerotator 3s   alternate ease;
+  animation: huerotator 3s   alternate ease-in-out;
   }
 
   @keyframes huerotator {
@@ -23,9 +25,4 @@ header{ /* Subtle  */
 
 section{
 color: #fff;
-}
-
-img:hover {
-    -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
 }

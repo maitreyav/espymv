@@ -2,33 +2,31 @@
 body {
 background: #232123;
 color: #fff;
-}
+} 
 header{ /* Subtle  */
- background: linear-gradient(90deg, #DBE6F6 0%, #BF755D 100%);
-  animation: huerotator 4s   alternate-reverse ease-in;
-    @keyframes huerotator {
-    0% {
-      -webkit-filter: hue-rotate(0deg);
-      filter: hue-rotate(0deg);
-    }
-
-    100% {
-      -webkit-filter: hue-rotate(360deg);
-      filter: hue-rotate(360deg);
-      .title{
-         text-transform: uppercase;
-      }
-
-    }
-  }
-}
+   background: linear-gradient(45deg, #BF755D 0%, #DBE6F6 100%);
+   animation: huerotator 3s   alternate ease-in-out;
+   }
+ 
+   @keyframes huerotator {
+     0% {
+       -webkit-filter: hue-rotate(0deg);
+       filter: hue-rotate(0deg);
+     }
+ 
+     100% {
+       -webkit-filter: hue-rotate(360deg);
+       filter: hue-rotate(360deg);
+ 
+     }
+   }
 
 section{
 }
 
 footer {
   position: absolute;
-  bottom: 5px;
+  bottom: 20px;
   left: 0;
   right: 0;
   text-align: center;

@@ -1,4 +1,5 @@
 
+@import url('https://fonts.googleapis.com/css?family=Hind');
 body {
 	background: linear-gradient(90deg, #7577FA 20px, transparent 1%) center, linear-gradient(#7577FA 20px, transparent 1%) center, #9192FB;
 	background-size: 22px 22px;
@@ -6,6 +7,24 @@ body {
  min-height:100%;
 position:relative;
 }
+h1 {
+ margin: 1em 0 0.5em 0;
+ color: #330867;
+ font-weight:normal;
+ font-family: 'Hind', sans-serif;
+ font-size: 42px;
+ line-height: 2px;
+ text-transform: uppercase;
+ text-shadow: 0 2px white, 0 3px #777;
+}
+
+h2 {
+  margin: 1em 0 0.5em 0;
+  	color: #fff;
+  	font-weight: normal;
+  	font-size: 18px;
+  	line-height: 25px;
+  	}
 header{ /* Subtle  */
    position: center;
    background: linear-gradient(180deg, #30cfd0   0%, #330867 100%);
@@ -33,6 +52,7 @@ right: 0;
 left: 0;
 height: 10px;
 text-align: center;
+
 }
 footer >a {
 color: #FFF;

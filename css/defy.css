@@ -15,18 +15,16 @@ h1 {
  font-size: 42px;
  line-height: 2px;
  text-transform: uppercase;
- text-shadow: 0 2px white, 0 3px #777;
+ text-shadow: 0 2px #30cfd0, 0 3px #fff;
 }
-
 h2 {
-  margin: 1em 0 0.5em 0;
-  	color: #fff;
+  margin: 0.5em 0 0.2em 0;
+  	color: #30cfd0;
   	font-weight: normal;
   	font-size: 18px;
   	line-height: 25px;
   	}
 header{ /* Subtle  */
-   position: center;
    background: linear-gradient(180deg, #30cfd0   0%, #330867 100%);
    animation: huerotator 3s   alternate ease-in-out;
    }

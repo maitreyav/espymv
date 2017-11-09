@@ -1,11 +1,10 @@
 
-@import url('https://fonts.googleapis.com/css?family=Hind');
+@import url('https://fonts.googleapis.com/css?family=');
 body {
 	background: linear-gradient(90deg, #7577FA 20px, transparent 1%) center, linear-gradient(#7577FA 20px, transparent 1%) center, #9192FB;
 	background-size: 22px 22px;
  color: #fff;
- min-height:100%;
-position:relative;
+
 }
 h1 {
  margin: 1em 0 0.5em 0;
@@ -24,9 +23,8 @@ h2 {
   	font-size: 18px;
   	line-height: 25px;
   	}
-		
 header{ /* Subtle  background: linear-gradient(180deg, #30cfd0   0%, #330867 100%); background: linear-gradient(90deg, #7577FA 20px, transparent 1%) center, linear-gradient(#7577FA 20px, transparent 1%) center, #9192FB; */
-   background: linear-gradient(180deg, #3b41c5   0%, #a981bb 100%);
+   background: linear-gradient(180deg, #3b41c5   0%, #a981bb  100%);
    animation: huerotator 3s   alternate ease-in-out;
    }
 
@@ -46,17 +44,19 @@ section{
 }
 footer {
 position: absolute;
-bottom: 50;
+bottom: 42px;
 right: 0;
 left: 0;
 height: 10px;
 text-align: center;
 font-size: 15px;
-
+opacity: 0.4;
 }
 footer >a {
 color: #FFF;
+
 }
 footer > a:hover {
   color: #e5e5e5;
+	opacity: 0.7;
 }

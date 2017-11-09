@@ -25,7 +25,7 @@ h2 {
   	line-height: 25px;
   	}
 header{ /* Subtle  */
-   background: linear-gradient(180deg, #30cfd0   0%, #330867 100%);
+   background: linear-gradient(180deg, #3494E6   0%, #EC6EAD   100%);
    animation: huerotator 3s   alternate ease-in-out;
    }
 

@@ -12,10 +12,10 @@ h1 {
  color: #330867;
  font-weight:normal;
  font-family: 'Hind', sans-serif;
- font-size: 42px;
+ font-size: 48px;
  line-height: 2px;
  text-transform: uppercase;
- text-shadow: 0 2px #30cfd0, 0 3px #fff;
+ text-shadow: 0 2px #30cfd0, 0 3px #9192FB;
 }
 h2 {
   margin: 0.5em 0 0.2em 0;
@@ -24,8 +24,9 @@ h2 {
   	font-size: 18px;
   	line-height: 25px;
   	}
-header{ /* Subtle  */
-   background: linear-gradient(180deg, #3494E6   0%, #EC6EAD   100%);
+		
+header{ /* Subtle  background: linear-gradient(180deg, #30cfd0   0%, #330867 100%); background: linear-gradient(90deg, #7577FA 20px, transparent 1%) center, linear-gradient(#7577FA 20px, transparent 1%) center, #9192FB; */
+   background: linear-gradient(180deg, #3b41c5   0%, #a981bb 100%);
    animation: huerotator 3s   alternate ease-in-out;
    }
 

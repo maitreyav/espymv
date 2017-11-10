@@ -50,7 +50,6 @@ left: 0;
 height: 10px;
 text-align: center;
 font-size: 15px;
-opacity: 0.4;
 }
 footer >a {
 color: #FFF;
@@ -58,5 +57,4 @@ color: #FFF;
 }
 footer > a:hover {
   color: #e5e5e5;
-	opacity: 0.7;
 }

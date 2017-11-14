@@ -1,5 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css?family=');
+@import url('https://rsms.me/inter/inter-ui.css');
+
 body {
 	background: linear-gradient(90deg, #7577FA 20px, transparent 1%) center, linear-gradient(#7577FA 20px, transparent 1%) center, #9192FB;
 	background-size: 22px 22px;
@@ -9,14 +11,15 @@ body {
 h1 {
  margin: 1em 0 0.5em 0;
  color: #330867;
- font-weight:normal;
- font-family: 'Hind', sans-serif;
+ font-weight:bold;
+ font-family:  'Inter UI', sans-serif;
  font-size: 58px;
  text-shadow: 0 2px #30cfd0, 0 3px #9192FB;
  bottom: 42px;
 }
 h2 {
   	color: #fff;
+		font-family:  'Inter UI', sans-serif;
   	font-weight: normal;
   	font-size: 28px;
   	line-height: 40px;

@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Offside');
 @import url('https://rsms.me/inter/inter-ui.css');
 
 body {
@@ -12,7 +12,7 @@ h1 {
  margin: 1em 0 0.5em 0;
  color: #330867;
  font-weight:300;
- font-family:   'Lato', sans-serif;
+ font-family:   'Offside', sans-serif;
  font-size: 72px;
  text-shadow: 0 2px #30cfd0, 0 3px #9192FB;
  line-height: 70px;

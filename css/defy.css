@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css?family=Offside');
+@import url('https://fonts.googleapis.com/css?family=Chivo ');
 @import url('https://rsms.me/inter/inter-ui.css');
 
 body {
@@ -11,21 +11,32 @@ body {
 h1 {
  margin: 1em 0 0.5em 0;
  color: #330867;
- font-weight:300;
- font-family:   'Offside', sans-serif;
- font-size: 72px;
+ font-weight:600;
+ font-family:'Chivo', sans-serif;
+ font-size: 74px;
  text-shadow: 0 2px #30cfd0, 0 3px #9192FB;
  line-height: 70px;
  bottom: 42px;
-
 }
 h2 {
   	color: #fff;
-		font-family:'Inter UI', sans-serif;
+		font-family:'Iter UI', sans-serif;
   	font-weight: 300;
   	font-size: 22px;
   	line-height: 40px;
 		  	}
+.text{
+	font-size: 1.5em;
+	  border: 1px solid #7577FA;
+	  padding:5px;
+	  width: 95%;
+	  margin: 5px auto;
+	  text-align: justify;
+
+}
+.em{
+	font-size: 12px;
+}
 /* header{ /* Subtle  background: linear-gradient(180deg, #30cfd0   0%, #330867 100%); background: linear-gradient(90deg, #7577FA 20px, transparent 1%) center, linear-gradient(#7577FA 20px, transparent 1%) center, #9192FB; */
     background: linear-gradient(180deg, #330867 0%, #30cfd0  100%);
    animation: huerotator 2s   alternate ease-in;
@@ -53,11 +64,15 @@ left: 0;
 height: 10px;
 text-align: center;
 font-size: 15px;
+
 }
 footer >a {
 color: #FFF;
-
+text-decoration:none;
 }
 footer > a:hover {
   color: #e5e5e5;
+	text-decoration-line:bold;}
+	footer > a:visited {
+	 text-decoration:;
 }

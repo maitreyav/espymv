@@ -35,11 +35,16 @@ h2 {
 
 }
 .note{
-	font-size: 14px;
+	font-size: 13px;
 	padding:5px;
 	width: 95%;
 	margin: 5px auto;
 
+}
+unart{
+	 margin: 1em 0 0.5em 0;
+	line-height: 70px;
+	 bottom: 42px;
 }
 /* header{ /* Subtle  background: linear-gradient(180deg, #30cfd0   0%, #330867 100%); background: linear-gradient(90deg, #7577FA 20px, transparent 1%) center, linear-gradient(#7577FA 20px, transparent 1%) center, #9192FB; */
     background: linear-gradient(180deg, #330867 0%, #30cfd0  100%);

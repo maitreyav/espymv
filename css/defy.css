@@ -43,6 +43,7 @@ h2 {
 		  	}
 .text{
 	font-size: 1.5em;
+	font-family:'Inter UI', sans-serif;
 	  border: 1px solid #9192FB;
 	  padding:5px;
 	  width: 95%;
@@ -51,6 +52,7 @@ h2 {
 
 }
 .note{
+	font-family:'Inter UI', sans-serif;
 	font-size: 13px;
 	padding:5px;
 	width: 95%;
@@ -62,7 +64,7 @@ unart{
 	line-height: 70px;
 	 bottom: 42px;
 }
-/* header{ /* Subtle  background: linear-gradient(180deg, #30cfd0   0%, #330867 100%); background: linear-gradient(90deg, #7577FA 20px, transparent 1%) center, linear-gradient(#7577FA 20px, transparent 1%) center, #9192FB; */
+/* header{ /* Subtle  background: linear-gradient(180deg, #30cfd0   0%, #330867 100%); background: linear-gradient(90deg, #7577FA 20px, transparent 1%) center, linear-gradient(#7577FA 20px, transparent 1%) center, #9192FB;
     background: linear-gradient(180deg, #330867 0%, #30cfd0  100%);
    animation: huerotator 2s   alternate ease-in;
    }
@@ -78,7 +80,7 @@ unart{
        filter: hue-rotate(360deg);
 
      }
-   }
+   } */
 section{
 
 }

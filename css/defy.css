@@ -1,26 +1,31 @@
 /*
 
-██████╗ ███████╗███████╗██╗   ██╗
-██╔══██╗██╔════╝██╔════╝╚██╗ ██╔╝
-██║  ██║█████╗  █████╗   ╚████╔╝
-██║  ██║██╔══╝  ██╔══╝    ╚██╔╝
-██████╔╝███████╗██║        ██║
-╚═════╝ ╚══════╝╚═╝        ╚═╝ .css
+_________/\\\________________________/\\\\\_______________        
+ ________\/\\\______________________/\\\///________________       
+  ________\/\\\_____________________/\\\_________/\\\__/\\\_      
+   ________\/\\\______/\\\\\\\\___/\\\\\\\\\_____\//\\\/\\\__     
+    ___/\\\\\\\\\____/\\\/////\\\_\////\\\//_______\//\\\\\___    
+     __/\\\////\\\___/\\\\\\\\\\\_____\/\\\__________\//\\\____   
+      _\/\\\__\/\\\__\//\\///////______\/\\\_______/\\_/\\\_____  
+       _\//\\\\\\\/\\__\//\\\\\\\\\\____\/\\\______\//\\\\/______ 
+        __\///////\//____\//////////_____\///________\////________.css
 
- "Breathe in the fresh air,
-Put your mind at ease.
-Let down your hair,
-Let it flow in the breeze."
+         
+    "Breathe in the fresh air,
+    Put your mind at ease.
+    Let down your hair,
+	 Let it flow in the breeze."
+	  
+       
 
-महानता कभी न गिरने में नहीं बल्कि हर बार गिरकर उठ जाने में है|
 */
 
 @import url('https://fonts.googleapis.com/css?family=Hind');
-@import url('https://rsms.me/inter/inter-ui.css');
+@import url('https://rsms.me/inter/inter-ui.css'); /* Apply it to forked wing.css  */
 
 body {
-	background: linear-gradient(90deg, #7577FA 20px, transparent 1%) center, linear-gradient(#7577FA 20px, transparent 1%) center, #9192FB;
-	background-size: 22px 22px;
+background: linear-gradient(90deg, #7577FA 20px, transparent 1%) center, linear-gradient(#7577FA 20px, transparent 1%) center, #9192FB;
+background-size: 22px 22px;
  color: #fff;
 }
 h1 {
@@ -82,55 +87,8 @@ unart{
    } */
 /*section{
 }
-/* Circle */
-.hover15 figure {
-	position: relative;
-}
-.hover15 figure::before {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	z-index: 2;
-	display: block;
-	content: '';
-	width: 0;
-	height: 0;
-	background: rgba(255,255,255,.2);
-	border-radius: 100%;
-	-webkit-transform: translate(-50%, -50%);
-	transform: translate(-50%, -50%);
-	opacity: 0;
-}
-.hover15 figure:hover::before {
-	-webkit-animation: circle .75s;
-	animation: circle .75s;
-}
-@-webkit-keyframes circle {
-	0% {
-		opacity: 1;
-	}
-	40% {
-		opacity: 1;
-	}
-	100% {
-		width: 200%;
-		height: 200%;
-		opacity: 0;
-	}
-}
-@keyframes circle {
-	0% {
-		opacity: 1;
-	}
-	40% {
-		opacity: 1;
-	}
-	100% {
-		width: 200%;
-		height: 200%;
-		opacity: 0;
-	}
-}
+*/
+
 footer {
 position: absolute;
 bottom:50;

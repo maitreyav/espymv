@@ -34,7 +34,7 @@ h1 {
  color: #330867;
  font-weight:400;
  font-family:'Baumans', sans-serif;
- font-size: 74px;
+ font-size: 72px;
  text-shadow: 0 2px #30cfd0, 0 3px #9192FB;
  line-height: 70px;
  bottom: 42px;
@@ -47,7 +47,7 @@ h2 {
   	line-height: 40px;
 		  	}
 .text{
-	font-size: 1.5em;
+	font-size: 1.3em;
   	padding:15px;
 font-family: -apple-system, BlinkMacSystemFont, Avenir, "Avenir Next", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
 	  border: 2px solid #9192FB;

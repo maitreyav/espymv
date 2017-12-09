@@ -22,7 +22,7 @@ _________/\\\________________________/\\\\\_______________
 */
 
 @import url('https://fonts.googleapis.com/css?family=Baumans');
-@import url('https://rsms.me/inter/inter-ui.css'); /* Apply it to forked wing.css & add your own changes  */
+@import url('https://rsms.me/inter/inter-ui.css');
 
 body {
 background: linear-gradient(90deg, #7577FA 20px, transparent 1%) center, linear-gradient(#7577FA 20px, transparent 1%) center, #9192FB;

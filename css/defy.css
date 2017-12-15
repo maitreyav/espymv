@@ -1,0 +1,113 @@
+/*
+
+_________/\\\________________________/\\\\\_______________
+ ________\/\\\______________________/\\\///________________
+  ________\/\\\_____________________/\\\_________/\\\__/\\\_
+   ________\/\\\______/\\\\\\\\___/\\\\\\\\\_____\//\\\/\\\__
+    ___/\\\\\\\\\____/\\\/////\\\_\////\\\//_______\//\\\\\___
+     __/\\\////\\\___/\\\\\\\\\\\_____\/\\\__________\//\\\____
+      _\/\\\__\/\\\__\//\\///////______\/\\\_______/\\_/\\\_____
+       _\//\\\\\\\/\\__\//\\\\\\\\\\____\/\\\______\//\\\\/______
+        __\///////\//____\//////////_____\///________\////________.css
+
+    "Breathe in the fresh air,
+    Put your mind at ease.
+    Let down your hair,
+	 Let it flow in the breeze."
+	                          = Unknown
+
+	   प्रसन्नता सद्भाव की छाया है; वो सद्भाव का पीछा करती है. प्रसन्न रहने का कोई और तरीका नहीं है.
+	                                                                            - ओशो
+
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Baumans');
+@import url('https://rsms.me/inter/inter-ui.css');
+
+body {
+background: linear-gradient(90deg, #7577FA 20px, transparent 1%) center, linear-gradient(#7577FA 20px, transparent 1%) center, #9192FB;
+background-size: 22px 22px;
+ color: #fff;
+}
+h1 {
+ margin: 1em 0 0.5em 0;
+ color: #330867;
+ font-weight:400;
+ font-family:'Baumans', sans-serif;
+ font-size: 72px;
+ text-shadow: 0 2px #30cfd0, 0 3px #9192FB;
+ line-height: 70px;
+ bottom: 42px;
+}
+h2 {
+  	color: #fff;
+		font-family:'Inter UI', sans-serif;
+  	font-weight: 300;
+  	font-size: 28px;
+  	line-height: 40px;
+		  	}
+.text{
+	font-size: 1.3em;
+  	padding:15px;
+font-family: -apple-system, BlinkMacSystemFont, Avenir, "Avenir Next", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+	  border: 2px solid #9192FB;
+	  width: 90%;
+	  margin: 10px auto;
+	  text-align: justify;
+    background-color:#7577FA;
+
+}
+.note{
+	font-family:'Inter UI', sans-serif;
+	font-size: 13px;
+	padding:5px;
+	width: 45%;
+	margin: 5px auto;
+
+}
+unart{
+	 margin: 1em 0 0.5em 0;
+	line-height: 70px;
+	 bottom: 42px;
+}
+/* header{ /* Subtle  background: linear-gradient(180deg, #30cfd0   0%, #330867 100%); background: linear-gradient(90deg, #7577FA 20px, transparent 1%) center, linear-gradient(#7577FA 20px, transparent 1%) center, #9192FB;
+    background: linear-gradient(180deg, #330867 0%, #30cfd0  100%);
+   animation: huerotator 2s   alternate ease-in;
+   }
+
+   @keyframes huerotator {
+     0% {
+       -webkit-filter: hue-rotate(0deg);
+       filter: hue-rotate(0deg);
+     }
+
+     100% {
+       -webkit-filter: hue-rotate(360deg);
+       filter: hue-rotate(360deg);
+
+     }
+   } */
+/*section{
+}
+*/
+
+footer {
+position: absolute;
+bottom:50;
+right: 0;
+left: 0;
+height: 10px;
+text-align: center;
+font-size: 13.5px;
+
+}
+footer >a {
+color: #FFF;
+text-decoration:none;
+}
+footer > a:hover {
+  color: #e5e5e5;
+	text-decoration-line:bold;}
+	footer > a:visited {
+	 text-decoration:#FFF;
+}

@@ -25,17 +25,17 @@ _________/\\\________________________/\\\\\_______________
 @import url('https://rsms.me/inter/inter-ui.css');
 
 body {
-background: linear-gradient(90deg, #7577FA 20px, transparent 1%) center, linear-gradient(#7577FA 20px, transparent 1%) center, #9192FB;
+background: linear-gradient(90deg, #2B2D32  20px, transparent 1%) center, linear-gradient(#2B2D32  20px, transparent 1%) center, #404246;
 background-size: 22px 22px;
- color: #fff;
+color: #e7e9ec;
 }
 h1 {
  margin: 1em 0 0.5em 0;
- color: #330867;
+ color: #e7e9ec;
  font-weight:400;
  font-family:'Baumans', sans-serif;
  font-size: 72px;
- text-shadow: 0 2px #30cfd0, 0 3px #9192FB;
+ text-shadow: 0 2px #e7e9c, 0 3px #a3a5a8;
  line-height: 70px;
  bottom: 42px;
 }
@@ -49,13 +49,14 @@ h2 {
 .text{
 	font-size: 1.3em;
   	padding:15px;
-font-family: -apple-system, BlinkMacSystemFont, Avenir, "Avenir Next", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-	  border: 2px solid #9192FB;
+  font-family: -apple-system, BlinkMacSystemFont, Avenir, "Avenir Next", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+	  border: 2px solid #7b8e96; //155695
 	  width: 90%;
 	  margin: 10px auto;
 	  text-align: justify;
-    background-color:#7577FA;
-
+    background-color:#2B2D32;
+    line-height: 1.313;
+  color: #e7e9ec;
 }
 .note{
 	font-family:'Inter UI', sans-serif;
@@ -63,6 +64,7 @@ font-family: -apple-system, BlinkMacSystemFont, Avenir, "Avenir Next", "Segoe UI
 	padding:5px;
 	width: 45%;
 	margin: 5px auto;
+  color: #e7e9ec;
 
 }
 unart{

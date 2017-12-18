@@ -25,18 +25,18 @@ _________/\\\________________________/\\\\\_______________
 @import url('https://rsms.me/inter/inter-ui.css');
 
 body {
-background: linear-gradient(90deg, #7577FA 20px, transparent 1%) center, linear-gradient(#7577FA 20px, transparent 1%) center, #9192FB;
+background: linear-gradient(90deg, #2B2D32  20px, transparent 1%) center, linear-gradient(#2B2D32  20px, transparent 1%) center, #404246;
 background-size: 22px 22px;
- color: #fff;
+color: #e7e9ec;
 }
 h1 {
  margin: 1em 0 0.5em 0;
- color: #330867;
+ color: #e7e9ec;
  font-weight:400;
  font-family:'Baumans', sans-serif;
  font-size: 72px;
- text-shadow: 0 2px #30cfd0, 0 3px #9192FB;
- line-height: 70px;
+ text-shadow: 0 2px #e7e9c, 0 3px #a3a5a8;
+line-height: 116px;
  bottom: 42px;
 }
 h2 {
@@ -44,25 +44,28 @@ h2 {
 		font-family:'Inter UI', sans-serif;
   	font-weight: 300;
   	font-size: 28px;
-  	line-height: 40px;
+  	  line-height: 1.313;
 		  	}
 .text{
-	font-size: 1.3em;
+	font-size: 1.2em;
   	padding:15px;
-font-family: -apple-system, BlinkMacSystemFont, Avenir, "Avenir Next", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-	  border: 2px solid #9192FB;
-	  width: 90%;
+  font-family: -apple-system, BlinkMacSystemFont, Avenir, "Avenir Next", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+	  border: 2px solid #155695; // 7b8e96
+	  width: 587px;
 	  margin: 10px auto;
 	  text-align: justify;
-    background-color:#7577FA;
-
+    background-color:#2B2D32;
+    line-height: 30px;
+    color: #e7e9ec;
 }
 .note{
 	font-family:'Inter UI', sans-serif;
 	font-size: 13px;
 	padding:5px;
-	width: 45%;
+	width: 50%;
 	margin: 5px auto;
+  color: #e7e9ec;
+  line-height: 21px;
 
 }
 unart{
@@ -90,7 +93,6 @@ unart{
 /*section{
 }
 */
-
 footer {
 position: absolute;
 bottom:50;
@@ -99,7 +101,6 @@ left: 0;
 height: 10px;
 text-align: center;
 font-size: 13.5px;
-
 }
 footer >a {
 color: #FFF;
